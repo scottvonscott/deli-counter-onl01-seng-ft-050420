@@ -16,5 +16,10 @@ def take_a_number(katz_deli, new_customer)
 end
 
 def now_serving(katz_deli)
-
+  if katz_deli.length > 0
+    puts "Now serving #{katz_deli.first}."
+    katz.deli.unshift
+  else
+      puts "The line is currently empty."
+    end
 end
