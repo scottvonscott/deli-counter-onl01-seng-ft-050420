@@ -5,6 +5,6 @@ def line(katz_deli)
       puts "Hello you are number #{counter} in line."
     end
   else
-      puts "The line is empty"
+      puts "The line is currently empty"
     end
 end
