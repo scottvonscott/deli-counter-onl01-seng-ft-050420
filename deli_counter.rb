@@ -3,6 +3,7 @@ def line(katz_deli)
   if katz_deli.length != 0
     katz_deli.each do |customer|
       puts "Hello you are number #{counter} in line."
+    end
   else
       puts "The line is empty"
     end
