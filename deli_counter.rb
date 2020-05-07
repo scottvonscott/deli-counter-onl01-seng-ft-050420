@@ -1,5 +1,5 @@
 def line(katz_deli)
-  counter = 0
+  counter = 1
   if katz_deli.length != 0
     katz_deli.each do |customer|
       puts "The line is currently: #{counter}. #{customer}"
